@@ -50,7 +50,7 @@ const Services = () => {
                 </div>
                 <div className="vl-line"></div>
                 <div className="services">
-                <div className="services-item">
+                    <div className="services-item">
                         <div className="services-title"><h1>Deals/Packages</h1></div>
                         <div className="services-card">
                             <ul>
