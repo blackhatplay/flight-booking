@@ -31,7 +31,7 @@ const Header = ()=> {
                     <div className="row">
                         <div className="block">
                             <h1>
-                            <span>Okay</span>
+                            <span>SEARCH</span>
                             </h1>
                         </div>
                     </div>
