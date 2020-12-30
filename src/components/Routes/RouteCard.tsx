@@ -1,5 +1,3 @@
-import { disconnect } from "process";
-
 const RouteCard = ({ flightData }) => {
 
     const res = flightData.map(item => {

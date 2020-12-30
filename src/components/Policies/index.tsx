@@ -1,4 +1,3 @@
-import Routes from '../Routes';
 import PoliciesContent from './PoliciesContent';
 
 const Policies = () => {
