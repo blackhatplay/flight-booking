@@ -1,0 +1,32 @@
+@import "variables";
+
+.terms {
+  padding: 1rem;
+  .terms-wrapper {
+    padding: 1rem;
+    h1 {
+      text-align: center;
+      font-size: 2rem;
+      color: $primary-color;
+      text-shadow: 0 5px 5px #ccc;
+    }
+
+    .terms-content {
+      padding: 2rem 0 0 0;
+      line-height: 1.5;
+
+      h2 {
+        padding-bottom: 1rem;
+        color: $dark-color;
+      }
+
+      ul {
+        li {
+          display: flex;
+          align-items: center;
+          gap: 0.5rem;
+        }
+      }
+    }
+  }
+}
