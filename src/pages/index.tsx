@@ -6,7 +6,7 @@ import Services from "../components/Services";
 const index = () => {
   return (
     <>
-      <Header />
+      <Header id="showcase1" />
       <Services />
       <Policies />
       <Footer />
