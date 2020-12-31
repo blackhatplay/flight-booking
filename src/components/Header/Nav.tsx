@@ -1,46 +1,76 @@
 import Link from 'next/link';
+import Image from 'next/image';
 import { FontAwesomeIcon } from '@fortawesome/react-fontawesome';
-import { faFacebookF,faInstagram,faTwitter,faPinterest } from '@fortawesome/free-brands-svg-icons';
+import { faFacebookF, faInstagram, faTwitter, faPinterest } from '@fortawesome/free-brands-svg-icons';
+import { faPhoneAlt } from '@fortawesome/free-solid-svg-icons';
 const Nav = () => {
     return (
-        <div className="menu">
-            <ul>
-                <li>
-                    <Link href="/"><a>Home</a></Link>
-                </li>
-                <li>
-                    <Link href="/airlines"><a>Airlines</a></Link>
-                </li>
-                <li>
-                    <Link href="/travel-tollfree"><a>Travel Tollfree</a></Link>
-                </li>
-                <li>
-                    <Link href="/policy"><a>Policy</a></Link>
-                </li>
-                <li>
-                    <Link href="/destinations"><a>Destinations</a></Link>
-                </li>
-                <li>
-                    <Link href="/contact"><a>Contact</a></Link>
-                </li>
-            </ul>
+        <nav id="main-nav">
+            <div className="container">
+                <div className="nav-wrapper">
+                    <Link href="/">
+                        <a className="logo">
+                            <Image src="/main-logo.png" width={80} height={25} alt="logo" />
+                            <h1>Flight Bookings</h1>
+                        </a>
+                    </Link>
+                    <a href="tel:1844-922-2333"><h4>Call Us</h4><FontAwesomeIcon icon={faPhoneAlt} />1844-922-2333</a>
+                </div>
+                <div className="menu">
+                    <ul>
+                        <li>
+                            <Link href="/"><a>Home</a></Link>
+                        </li>
+                        <li>
 
-            <ul>
-                <li>
-                    <Link href="/"><a><FontAwesomeIcon icon={faFacebookF} /></a></Link>
-                </li>
-                <li>
-                    <Link href="/"><a><FontAwesomeIcon icon={faInstagram} /></a></Link>
-                </li>
-                <li>
-                    <Link href="/"><a><FontAwesomeIcon icon={faTwitter} /></a></Link>
-                </li>
-                <li>
-                    <Link href="/"><a><FontAwesomeIcon icon={faPinterest} /></a></Link>
-                </li>
+                            <div className="dropdown">
+                                <Link href="/delta-airlines"><a className="dropbtn">AirLines</a></Link>
+                                <div className="dropdown-content">
+                                    <Link href="/delta-airlines"><a >Delta Airlines</a></Link>
+                                    <Link href="/american-airlines"><a>American Airlines</a></Link>
+                                </div>
+                            </div>
+                        </li>
+                        <li>
+                            <Link href="/booking-tollfree"><a>Booking Tollfree</a></Link>
+                        </li>
+                        <li>
+                            <div className="dropdown">
+                                <Link href="/disclaimer"><a className="dropbtn">Policy</a></Link>
+                                <div className="dropdown-content">
+                                    <Link href="/disclaimer"><a >Disclaimer</a></Link>
+                                    <Link href="/terms-conditions"><a>Terms &amp; Conditions</a></Link>
+                                    <Link href="/refund-cancellations"><a>Refunds &amp; Cancellations</a></Link>
+                                    <Link href="/privacy-policy"><a>Privacy Policy</a></Link>
+                                </div>
+                            </div>
+                        </li>
+                        <li>
+                            <Link href="/destinations"><a>Destinations</a></Link>
+                        </li>
+                        <li>
+                            <Link href="/contact"><a>Contact</a></Link>
+                        </li>
+                    </ul>
 
-            </ul>
-    </div>
+                    <ul>
+                        <li>
+                            <Link href="/"><a><FontAwesomeIcon icon={faFacebookF} /></a></Link>
+                        </li>
+                        <li>
+                            <Link href="/"><a><FontAwesomeIcon icon={faInstagram} /></a></Link>
+                        </li>
+                        <li>
+                            <Link href="/"><a><FontAwesomeIcon icon={faTwitter} /></a></Link>
+                        </li>
+                        <li>
+                            <Link href="/"><a><FontAwesomeIcon icon={faPinterest} /></a></Link>
+                        </li>
+
+                    </ul>
+                </div>
+            </div>
+        </nav>
     )
 }
 

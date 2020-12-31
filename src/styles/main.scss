@@ -1,4 +1,3 @@
-// @import url("https://fonts.googleapis.com/css2?family=Raleway&display=swap");
 @import url("https://fonts.googleapis.com/css2?family=Roboto&display=swap");
 @import "variables";
 @import "terms";
@@ -49,7 +48,7 @@ a {
   font-weight: bold;
 
   &:hover {
-    color: $primary-color;
+    color: $shadow-color;
   }
 }
 
@@ -71,11 +70,19 @@ ul {
   background-color: $primary-color;
 }
 
+#showcase1 {
+  background: url("/showcase.jpg") no-repeat center center/cover;
+}
+
+#showcase2 {
+  background: url("/destination.jpg") no-repeat center center/cover;
+}
+
 .ribbon {
   cursor: pointer;
   margin: 2rem 0;
-  $freshcolor: #47b372;
-  $darkcolor: #192238;
+  $freshcolor: $primary-color;
+  $darkcolor: #fff;
 
   .row {
     display: table;
@@ -163,6 +170,55 @@ ul {
   }
 }
 
+.dropbtn {
+  // background-color: $primary-color;
+  color: white;
+  padding: 16px;
+  font-size: 16px;
+  border: none;
+  cursor: pointer;
+}
+
+.dropdown {
+  position: relative;
+  display: inline-block;
+}
+
+.dropdown-content {
+  display: none;
+  position: absolute;
+  background-color: #f9f9f9;
+  min-width: 160px;
+  box-shadow: 0px 8px 16px 0px rgba(0, 0, 0, 0.2);
+  z-index: 1;
+}
+
+.dropdown-content a {
+  color: black;
+  padding: 12px 16px;
+  text-decoration: none;
+  display: block;
+}
+
+.dropdown-content a:hover {
+  background-color: #f1f1f1;
+}
+
+.dropdown:hover .dropdown-content {
+  display: block;
+}
+
+.dropdown:hover .dropbtn {
+  background-color: #fff;
+  color: $primary-color;
+}
+
+.cpy-content {
+  p {
+    padding: 0.5rem 0;
+  }
+}
+
 header {
   padding-bottom: 2rem;
   #main-nav {
@@ -199,6 +255,10 @@ header {
     ul {
       display: flex;
       gap: 2rem;
+
+      a {
+        padding: 0.5rem;
+      }
     }
   }
 
@@ -210,7 +270,6 @@ header {
     align-items: center;
     padding: 3rem;
     background-color: rgba($color: $dark-color, $alpha: 0.2);
-    background: url("/showcase1.jpg") no-repeat center center/cover;
     box-shadow: 0 3px 5px $shadow-color;
 
     .showcase-icons {
@@ -238,10 +297,6 @@ header {
         background-color: $dark-color;
       }
     }
-  }
-
-  .showcase2 {
-    padding: 0 4rem 4rem 4rem !important;
   }
 
   .airlines-logo {
@@ -277,7 +332,7 @@ header {
     gap: 2rem;
 
     .services-item {
-      background-color: rgba($color: #fff, $alpha: 0.5);
+      background-color: rgba($color: #fff, $alpha: 0.8);
       color: $dark-color;
       padding: 2rem;
       width: 500px;
@@ -312,9 +367,12 @@ header {
   flex-wrap: wrap;
   gap: 2rem;
   justify-content: space-between;
+  &:last-child {
+    justify-self: center;
+  }
 
   .route-item {
-    background-color: rgba($color: #fff, $alpha: 0.5);
+    background-color: rgba($color: #fff, $alpha: 0.8);
     color: $dark-color;
     padding: 2rem;
     width: 500px;
@@ -360,10 +418,60 @@ header {
   }
 }
 
+.number-wrapper {
+  margin: 1rem auto;
+  background-color: rgba($color: #000, $alpha: 0.2);
+  div {
+    display: flex;
+    justify-content: space-between;
+    flex-wrap: wrap;
+    gap: 0.5rem;
+    // width: 300px;
+
+    p {
+      font-size: 1.1rem;
+      gap: 0.5rem;
+      width: 30%;
+      display: flex;
+      justify-content: space-between;
+    }
+  }
+}
+
+.destinations-list {
+  display: flex;
+  justify-content: space-between;
+  flex-wrap: wrap;
+
+  .destination-item {
+    position: relative;
+    width: 300px;
+    height: 200px;
+    margin: 2rem 0;
+    border-radius: 5px;
+    box-shadow: 0 2px 5px $shadow-color;
+
+    img {
+      border-radius: 5px;
+    }
+
+    h1 {
+      position: absolute;
+      width: 100%;
+      color: $text-color;
+      z-index: 1;
+      top: 50%;
+      left: 50%;
+      text-align: center;
+      transform: translate(-50%, -50%);
+    }
+  }
+}
+
 // Footer
 
 #main-footer {
-  // background-color: #fff;
+  margin-top: 2rem;
   box-shadow: 5px 0 5px #ccc;
   .footer-wrapper {
     display: flex;
