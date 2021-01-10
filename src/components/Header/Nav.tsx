@@ -10,7 +10,7 @@ const Nav = () => {
                 <div className="nav-wrapper">
                     <Link href="/">
                         <a className="logo">
-                            <Image src="/main-logo.png" width={80} height={25} alt="logo" />
+                            <Image src="/blue-logo.png" width={50} height={50} alt="logo" />
                             <div>
                                 <h1>Flight Bookings</h1>
                                 <span className="tagline">Flight Booking | Changes</span>
