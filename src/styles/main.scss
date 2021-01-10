@@ -48,7 +48,7 @@ a {
   font-weight: bold;
 
   &:hover {
-    color: $shadow-color;
+    color: #11a2cd;
   }
 }
 
@@ -265,6 +265,7 @@ header {
       flex-wrap: wrap;
 
       a {
+        font-size: 1.2rem;
         padding: 0.5rem;
       }
     }
