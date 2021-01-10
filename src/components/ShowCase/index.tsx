@@ -5,7 +5,7 @@ const ShowCase = ({ id = "showcase1" }) => {
     return (
         <div id={id} className="showcase showcase1">
             <h2>​SEE HOW MUCH YOU CAN SAVE WITH THESE LAST MINUTE RATES</h2>
-            <h4>Booking, Cancellations, Change of Flight, Flight Delay</h4>
+            <h4>Flight Booking</h4>
             <div className="showcase-icons">
                 <FontAwesomeIcon icon={faBinoculars} size={'3x'} />
                 <div className="ribbon">

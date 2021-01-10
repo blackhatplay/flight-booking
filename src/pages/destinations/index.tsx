@@ -1,10 +1,14 @@
 import Footer from "../../components/Footer";
 import Header from "../../components/Header";
 import Image from "next/image";
+import Head from 'next/head';
 
 const Destinations = () => {
     return (
         <>
+            <Head>
+                <title>Destinations | Flight Booking</title>
+            </Head>
             <Header id="showcase2" />
             <div className="container">
                 <div className="destinations-list">

@@ -1,9 +1,13 @@
 import Footer from "../../components/Footer";
 import Nav from "../../components/Header/Nav";
+import Head from 'next/head';
 
-const AmericanAirlines = () => {
+const RefundCancellations = () => {
   return (
     <>
+      <Head>
+        <title>Refund &amp; Cancellations | Flight Booking</title>
+      </Head>
       <header>
         <Nav />
       </header>
@@ -156,4 +160,4 @@ const AmericanAirlines = () => {
   );
 };
 
-export default AmericanAirlines;
+export default RefundCancellations;

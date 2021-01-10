@@ -1,9 +1,13 @@
 import Footer from "../../components/Footer";
 import Nav from "../../components/Header/Nav";
+import Head from 'next/head';
 
 const AmericanAirlines = () => {
     return (
         <>
+            <Head>
+                <title>American Airlines | Flight Booking</title>
+            </Head>
             <header>
                 <Nav />
             </header>

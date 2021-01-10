@@ -11,7 +11,10 @@ const Nav = () => {
                     <Link href="/">
                         <a className="logo">
                             <Image src="/main-logo.png" width={80} height={25} alt="logo" />
-                            <h1>Flight Bookings</h1>
+                            <div>
+                                <h1>Flight Bookings</h1>
+                                <span className="tagline">Flight Booking | Changes</span>
+                            </div>
                         </a>
                     </Link>
                     <a href="tel:1844-922-2333"><h4>Call Us</h4><FontAwesomeIcon icon={faPhoneAlt} />1844-922-2333</a>
@@ -53,7 +56,7 @@ const Nav = () => {
                         </li>
                     </ul>
 
-                    <ul>
+                    <ul className="social-links">
                         <li>
                             <Link href="/"><a><FontAwesomeIcon icon={faFacebookF} /></a></Link>
                         </li>
