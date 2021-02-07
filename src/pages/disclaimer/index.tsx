@@ -1,13 +1,11 @@
 import Footer from "../../components/Footer";
 import Nav from "../../components/Header/Nav";
-import Head from 'next/head';
+import Head from '../../components/Head';
 
 const Disclaimer = () => {
   return (
     <>
-      <Head>
-        <title>Disclaimer | Flight Booking</title>
-      </Head>
+      <Head title="Disclaimer | Flight Booking" />
       <header>
         <Nav />
       </header>

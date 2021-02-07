@@ -1,14 +1,12 @@
 import Footer from "../../components/Footer";
 import Header from "../../components/Header";
 import Image from "next/image";
-import Head from 'next/head';
+import Head from '../../components/Head';
 
 const Destinations = () => {
     return (
         <>
-            <Head>
-                <title>Destinations | Flight Booking</title>
-            </Head>
+            <Head title="Destinations | Flight Booking" />
             <Header id="showcase2" />
             <div className="container">
                 <div className="destinations-list">

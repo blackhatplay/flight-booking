@@ -1,13 +1,11 @@
 import Footer from "../../components/Footer";
 import Nav from "../../components/Header/Nav";
-import Head from 'next/head';
+import Head from '../../components/Head';
 
 const TermsConditions = () => {
     return (
         <>
-            <Head>
-                <title>Terms &amp; Conditions | Flight Booking</title>
-            </Head>
+            <Head title="Terms &amp; Conditions | Flight Booking" />
             <header>
                 <Nav />
             </header>
