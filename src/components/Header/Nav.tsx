@@ -25,6 +25,9 @@ const Nav = () => {
                             <Link href="/"><a>Home</a></Link>
                         </li>
                         <li>
+                            <Link href="/unaccompanied-minor"><a>Unaccompanied Minor</a></Link>
+                        </li>
+                        <li>
 
                             <div className="dropdown">
                                 <Link href="/delta-airlines"><a className="dropbtn">AirLines</a></Link>
