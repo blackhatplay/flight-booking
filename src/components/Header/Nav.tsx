@@ -3,6 +3,8 @@ import Image from 'next/image';
 import { FontAwesomeIcon } from '@fortawesome/react-fontawesome';
 import { faFacebookF, faInstagram, faTwitter, faPinterest } from '@fortawesome/free-brands-svg-icons';
 import { faPhoneAlt } from '@fortawesome/free-solid-svg-icons';
+import { number } from '../data';
+
 const Nav = () => {
     return (
         <nav id="main-nav">
@@ -17,7 +19,7 @@ const Nav = () => {
                             </div>
                         </a>
                     </Link>
-                    <a href="tel:1844-922-2333"><h4>Call Us</h4><FontAwesomeIcon icon={faPhoneAlt} />1844-922-2333</a>
+                    <a href={`tel:${number}`}><h4>Call Us</h4><FontAwesomeIcon icon={faPhoneAlt} />{number}</a>
                 </div>
                 <div className="menu">
                     <ul>

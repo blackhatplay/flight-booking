@@ -14,7 +14,7 @@ const ContactDetails = () => {
                                 <i className="fal fa-phone-alt"></i> Call us
                 </div>
                             <p>We are here 24x7</p>
-                            <a href="tel:1844-922-2333">Call 1844-922-2333</a>
+                            <a href="tel:1-800-960-0724">Call 1-800-960-0724</a>
                         </li>
                         <li>
                             <div className="list-head">

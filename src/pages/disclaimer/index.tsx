@@ -1,6 +1,7 @@
 import Footer from "../../components/Footer";
 import Nav from "../../components/Header/Nav";
 import Head from '../../components/Head';
+import { number } from "../../components/data";
 
 const Disclaimer = () => {
   return (
@@ -705,7 +706,7 @@ const Disclaimer = () => {
               <span>
                 In the event that you are not satisfied booking airline tickets
                 on the web, you can likewise contact our travel experts by
-                calling at our toll-free number:&nbsp;+1 (855) 957-0364. Our
+                calling at our toll-free number:&nbsp; {number}. Our
                 specialists are qualified professionals with long stretches of
                 business involvement with the region of providing best customer
                 service and find best fares and airlines according to the

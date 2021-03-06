@@ -479,3 +479,5 @@ export const flightData = [
     ],
   },
 ];
+
+export const number = "1-800-960-0724";
