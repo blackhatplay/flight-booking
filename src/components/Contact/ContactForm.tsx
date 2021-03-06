@@ -31,11 +31,11 @@ const ContactForm = () => {
             <h1>Or Send us a message</h1>
 
             <div className="form-wrapper">
-                <form action="https://submit-form.com/IO_VzSnt1eEIuDdO3wQSE">
+                <form action="https://submit-form.com/g5MWNubu">
                     <input
                         type="hidden"
                         name="_redirect"
-                        value="http://localhost:3000"
+                        value="https://flightboooking.com/"
                     />
                     <div className="form-control">
                         <label htmlFor="name">Name : </label>
