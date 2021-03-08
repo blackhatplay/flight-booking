@@ -63,16 +63,16 @@ const Nav = () => {
 
                     <ul className="social-links">
                         <li>
-                            <Link href="/"><a><FontAwesomeIcon icon={faFacebookF} /></a></Link>
+                            <a href="#"><FontAwesomeIcon icon={faFacebookF} /></a>
                         </li>
                         <li>
-                            <Link href="/"><a><FontAwesomeIcon icon={faInstagram} /></a></Link>
+                            <a href="https://www.instagram.com/flightboooking/" target="_blank"><FontAwesomeIcon icon={faInstagram} /></a>
                         </li>
                         <li>
-                            <Link href="/"><a><FontAwesomeIcon icon={faTwitter} /></a></Link>
+                            <a href="https://twitter.com/flightboooking" target="_blank"><FontAwesomeIcon icon={faTwitter} /></a>
                         </li>
                         <li>
-                            <Link href="/"><a><FontAwesomeIcon icon={faPinterest} /></a></Link>
+                            <a href="#"><FontAwesomeIcon icon={faPinterest} /></a>
                         </li>
 
                     </ul>

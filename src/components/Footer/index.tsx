@@ -13,19 +13,20 @@ const Footer = () => {
                         </li>
                         <li><Link href="/contact"><a>Contact</a></Link></li>
                     </ul>
-                    <ul className="social-icons">
-                        <li>
-                            <a href="#"><FontAwesomeIcon icon={faTwitter} /></a>
-                        </li>
+                    <ul className="social-links">
                         <li>
                             <a href="#"><FontAwesomeIcon icon={faFacebookF} /></a>
                         </li>
                         <li>
-                            <a href="#"><FontAwesomeIcon icon={faInstagram} /></a>
+                            <a href="https://www.instagram.com/flightboooking/" target="_blank"><FontAwesomeIcon icon={faInstagram} /></a>
+                        </li>
+                        <li>
+                            <a href="https://twitter.com/flightboooking" target="_blank"><FontAwesomeIcon icon={faTwitter} /></a>
                         </li>
                         <li>
                             <a href="#"><FontAwesomeIcon icon={faPinterest} /></a>
                         </li>
+
                     </ul>
                 </div>
             </div>

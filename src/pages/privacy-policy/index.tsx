@@ -10,12 +10,12 @@ const PrivacyPolicy = () => {
                 <Nav />
             </header>
             <div className="container">
-                <h1>Terms &amp; Conditions</h1>
+                <h1>Privacy Policy</h1>
 
                 <div className="cpy-content">
                     <p>
                         <span
-                        >By utilizing the Flightboooking.ccom, you recognize our utilization of
+                        >By utilizing the Flightboooking.com, you recognize our utilization of
                             your data as per this strategy. Flightboooking.ccom demands our clients to
                             peruse the accompanying Privacy Policy subtleties and get in touch with us
       in regards to any questions.</span
