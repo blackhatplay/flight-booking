@@ -107,7 +107,7 @@ export const policiesDataSec = [
   {
     title: "Easy to Use Website",
     content:
-      "  It's fast to utilize our Airline reservation site on the grounds that the interface is easy to understand. You can rapidly peruse around the web and find what you're looking for, as it has been instinctively fabricated. It is adaptable in nature that permits travelers to utilize it on new advanced cells without breaking a sweat. In the event that you are not satisfied booking airline tickets on the web, you can likewise contact our travel experts by calling at our toll-free number: +1 (855) 957-0364. Our specialists are qualified professionals with long stretches of business involvement with the region of providing best customer service and find best fares and airlines according to the customer's requirement. Which most experts seek to learn. Other than finding the best airfares or flights according to your requirements, our specialists will even suggest probably the most advantageous hotels.",
+      "  It's fast to utilize our Airline reservation site on the grounds that the interface is easy to understand. You can rapidly peruse around the web and find what you're looking for, as it has been instinctively fabricated. It is adaptable in nature that permits travelers to utilize it on new advanced cells without breaking a sweat. In the event that you are not satisfied booking airline tickets on the web, you can likewise contact our travel experts by calling at our toll-free number: 1-888-802-0980. Our specialists are qualified professionals with long stretches of business involvement with the region of providing best customer service and find best fares and airlines according to the customer's requirement. Which most experts seek to learn. Other than finding the best airfares or flights according to your requirements, our specialists will even suggest probably the most advantageous hotels.",
   },
   {
     title: "Delta Air Lines Customer Service Contacts",
@@ -480,4 +480,4 @@ export const flightData = [
   },
 ];
 
-export const number = "1-800-960-0724";
+export const number = "1-888-802-0980";

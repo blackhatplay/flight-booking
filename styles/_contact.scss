@@ -1,0 +1,87 @@
+@import "variables";
+
+.contact {
+  padding: 1rem;
+
+  .contact-wrapper {
+    h1 {
+      text-align: center;
+      font-size: 2rem;
+      padding-bottom: 0.5rem;
+    }
+    > p {
+      text-align: center;
+    }
+    .contact-content {
+      padding: 1rem 0;
+
+      > ul {
+        display: flex;
+        align-items: center;
+        justify-content: space-around;
+
+        li {
+          .list-head {
+            font-size: 2rem;
+          }
+        }
+      }
+    }
+  }
+}
+
+.contact-form {
+  h1 {
+    text-align: center;
+  }
+
+  form {
+    width: 80%;
+    margin: 0 auto;
+  }
+
+  .form-wrapper {
+    margin: 1rem 0;
+    padding: 3rem;
+    background-color: rgba($color: #fff, $alpha: 0.5);
+    box-shadow: 0 2px 5px $shadow-color;
+    border-radius: 5px;
+    display: flex;
+    align-items: center;
+
+    .form-control {
+      display: flex;
+      flex-direction: column;
+
+      label {
+        font-size: 1.2rem;
+      }
+
+      input,
+      textarea {
+        font-size: 1rem;
+        border: none;
+        outline: none;
+        padding: 0.5rem 1rem;
+        border-radius: 3px;
+        margin: 0.5rem 0;
+        box-shadow: 0 2px 5px #777;
+      }
+
+      button {
+        padding: 0.8rem 0;
+        margin-top: 0.5rem;
+        border: none;
+        outline: none;
+        background-color: $dark-color;
+        border-radius: 5px;
+        color: $text-color;
+        cursor: pointer;
+
+        &:hover {
+          background-color: $shadow-color;
+        }
+      }
+    }
+  }
+}
