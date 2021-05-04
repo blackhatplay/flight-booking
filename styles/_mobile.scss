@@ -39,6 +39,9 @@
   }
 
   .showcase {
+    padding: 1rem !important;
+    text-align: center;
+
     .showcase-icons {
       svg {
         display: none;
@@ -87,6 +90,7 @@
         margin: 0;
       }
       .social-icons {
+        margin: 0 auto;
         font-size: 1rem;
       }
     }
