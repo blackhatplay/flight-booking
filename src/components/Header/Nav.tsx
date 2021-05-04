@@ -21,8 +21,8 @@ const Nav = () => {
               <div>
                 <h1>Flight Bookings</h1>
                 <span className="tagline">
-                  Cheap Flight Tickets | Cheap Airfares | Airline Changes |
-                  Airline Refunds
+                  Cheap Flight Tickets | Cheap Airfares | Airline Changes
+                  <span> Airline Refunds</span>
                 </span>
               </div>
             </a>

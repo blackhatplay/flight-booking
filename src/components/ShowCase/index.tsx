@@ -6,7 +6,7 @@ const ShowCase = ({ id = "showcase1" }) => {
   return (
     <div id={id} className="showcase showcase1">
       <h2>​Compare and Book Cheap Flights from Over 600 Airlines!</h2>
-      <h4 style={{ display: "flex", alignItems: "center", gap: "0.5rem" }}>
+      <h4 style={{ display: "flex", gap: "0.5rem" }}>
         <span className="icon-circle">
           <FontAwesomeIcon icon={faPhoneAlt} />
         </span>
