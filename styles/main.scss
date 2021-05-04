@@ -14,7 +14,8 @@ body {
   // font-family: "Raleway", sans-serif;
   font-family: "Roboto", sans-serif;
   color: $text-color;
-  background: url("/bg.jpg") center center/cover no-repeat;
+  background: url("https://source.unsplash.com/lHGeqh3XhRY/1920x2878") center
+    center/cover no-repeat;
   background-attachment: fixed;
   // background: url("../public/bg-repeat.png");
   position: relative;
@@ -73,7 +74,8 @@ ul {
 }
 
 #showcase1 {
-  background: url("/showcase.jpg") no-repeat center center/cover;
+  background: url("https://source.unsplash.com/ma48HHDJCXw/1600x900") no-repeat
+    center center/cover;
 }
 
 #showcase2 {
