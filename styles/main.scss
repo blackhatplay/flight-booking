@@ -1,8 +1,8 @@
-@import url("https://fonts.googleapis.com/css2?family=Roboto&display=swap");
-@import "variables";
-@import "terms";
-@import "contact";
-@import "mobile";
+@import url('https://fonts.googleapis.com/css2?family=Roboto&display=swap');
+@import 'variables';
+@import 'terms';
+@import 'contact';
+@import 'mobile';
 
 * {
   padding: 0;
@@ -12,16 +12,15 @@
 
 body {
   // font-family: "Raleway", sans-serif;
-  font-family: "Roboto", sans-serif;
+  font-family: 'Roboto', sans-serif;
   color: $text-color;
-  background: url("https://source.unsplash.com/lHGeqh3XhRY/1920x2878") center
-    center/cover no-repeat;
+  background: url('https://source.unsplash.com/lHGeqh3XhRY/1920x2878') center center/cover no-repeat;
   background-attachment: fixed;
   // background: url("../public/bg-repeat.png");
   position: relative;
 
   &::before {
-    content: "";
+    content: '';
     position: absolute;
     width: 100%;
     height: 100%;
@@ -74,12 +73,11 @@ ul {
 }
 
 #showcase1 {
-  background: url("https://source.unsplash.com/ma48HHDJCXw/1600x900") no-repeat
-    center center/cover;
+  background: url('https://source.unsplash.com/ma48HHDJCXw/1600x900') no-repeat center center/cover;
 }
 
 #showcase2 {
-  background: url("/destination.jpg") no-repeat center center/cover;
+  background: url('/destination.jpg') no-repeat center center/cover;
 }
 
 .ribbon {
@@ -105,7 +103,7 @@ ul {
   h1 {
     position: relative;
     display: inline-block;
-    font-family: "Times New Roman";
+    font-family: 'Times New Roman';
     font-weight: 500;
     letter-spacing: 0.15em;
     white-space: nowrap;
@@ -115,7 +113,7 @@ ul {
 
     &:after,
     &:before {
-      content: " ";
+      content: ' ';
       display: block;
       position: absolute;
       bottom: -0.5em;
@@ -147,7 +145,7 @@ ul {
 
       &:after,
       &:before {
-        content: " ";
+        content: ' ';
         display: block;
         position: absolute;
         width: 0;
@@ -400,6 +398,12 @@ header {
         }
       }
     }
+  }
+}
+
+.price-disclaimer {
+  p {
+    padding: 0.5rem 0;
   }
 }
 
