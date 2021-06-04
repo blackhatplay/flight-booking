@@ -82,7 +82,7 @@ const Services = () => {
             </div>
           </div>
         </div>
-        <div className="vl-line"></div>
+        {/* <div className="vl-line"></div> */}
         <div className="services">
           <div className="services-item">
             <div className="services-title">
